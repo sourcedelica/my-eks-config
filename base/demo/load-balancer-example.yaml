@@ -6,7 +6,7 @@ metadata:
   name: hello-world
   namespace: demo
 spec:
-  replicas: 5
+  replicas: 3
   selector:
     matchLabels:
       app.kubernetes.io/name: load-balancer-example
